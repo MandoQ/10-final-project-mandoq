@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wustlcse204/10-final-project-mandoq/static/css/main.a7863cdf.chunk.css",
+    "main.js": "/wustlcse204/10-final-project-mandoq/static/js/main.9715eb08.chunk.js",
+    "main.js.map": "/wustlcse204/10-final-project-mandoq/static/js/main.9715eb08.chunk.js.map",
+    "runtime-main.js": "/wustlcse204/10-final-project-mandoq/static/js/runtime-main.b0de0ac2.js",
+    "runtime-main.js.map": "/wustlcse204/10-final-project-mandoq/static/js/runtime-main.b0de0ac2.js.map",
+    "static/js/2.e32b6565.chunk.js": "/wustlcse204/10-final-project-mandoq/static/js/2.e32b6565.chunk.js",
+    "static/js/2.e32b6565.chunk.js.map": "/wustlcse204/10-final-project-mandoq/static/js/2.e32b6565.chunk.js.map",
+    "static/js/3.f1d36add.chunk.js": "/wustlcse204/10-final-project-mandoq/static/js/3.f1d36add.chunk.js",
+    "static/js/3.f1d36add.chunk.js.map": "/wustlcse204/10-final-project-mandoq/static/js/3.f1d36add.chunk.js.map",
+    "index.html": "/wustlcse204/10-final-project-mandoq/index.html",
+    "static/css/main.a7863cdf.chunk.css.map": "/wustlcse204/10-final-project-mandoq/static/css/main.a7863cdf.chunk.css.map",
+    "static/js/2.e32b6565.chunk.js.LICENSE.txt": "/wustlcse204/10-final-project-mandoq/static/js/2.e32b6565.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0de0ac2.js",
+    "static/js/2.e32b6565.chunk.js",
+    "static/css/main.a7863cdf.chunk.css",
+    "static/js/main.9715eb08.chunk.js"
+  ]
+}
