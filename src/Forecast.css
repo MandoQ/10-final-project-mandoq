@@ -1,0 +1,15 @@
+.forecast-table{
+    width: 75%;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  tr {
+      font-size: 18px;
+  }
+
+  @media only screen and (max-width: 700px) {
+    tr {
+        font-size: 13px;
+    }
+  }
