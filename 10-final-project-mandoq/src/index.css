@@ -12,7 +12,8 @@ code {
     monospace;
 }
 
-
+/* https://www.w3schools.com/colors/colors_gradient.asp Used this to learn and apply a gradient to the 
+background  */
 body > #root > section {
   height: 100vh !important;
   background: linear-gradient(to bottom, #003366 0%, #33ccff 95%);

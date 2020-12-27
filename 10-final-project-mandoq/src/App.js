@@ -9,6 +9,7 @@ import Col from 'react-bootstrap/Col'
 
 var apiKey = '7354b756ee4fd35295b43a9c6f22d8e8';
 let months = ["Januaray", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "Novemeber", "December"]
+// Used this source to learn how to get the current date  https://www.w3schools.com/jsref/jsref_obj_date.asp
 var today = new Date();
 var month = String(months[today.getMonth()]);
 var day = String(today.getDate());
@@ -30,40 +31,9 @@ class App extends Component {
     this.handleUnitChange = this.handleUnitChange.bind(this);
   }
 
-  fetchWeather(event) {
+  fetchWeather() {
     this.requestCurrentWeatherAndForecast();
-    // var degreeNotation = "";
-    // if (this.state.units == "standard") {
-    //   degreeNotation = "K";
-    // } else if (this.state.units == "metric") {
-    //   degreeNotation = "°C";
-    // } else {
-    //   degreeNotation = "°F";
-    // }
-    // let city = encodeURIComponent(this.state.textInput);
-    // let lan = encodeURIComponent(this.state.language);
-    // let units = encodeURIComponent(this.state.units);
-
-
-    //   let url = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=' + apiKey + '&lang=' + lan + '&units=' + units;
-    //   fetch(url)
-    //     .then(res => res.json())
-    //     .then(result => {
-    //       this.setState({
-    //         currentWeather: result,
-    //         degree: degreeNotation,
-    //         coordinates: result.coord
-    //       });
-    //     })
-    //   this.requestCurrentWeatherAndForecast();
   }
-
-  //fetchForecast(){
-  //console.log(this.state.coordinates);
-  // fetch('https://api.openweathermap.org/data/2.5/onecall?lat=' + this.state.coord.lat + '&lon=' + this.state.coord.lon + '&exclude=current,minutely,hourly,alerts&appid=' + apiKey)
-  //  .then(res => res.json())
-  //  .then(result => this.setState({ daily: result.daily }))
-  //}
 
   requestCurrentWeatherAndForecast = async () => {
     var degreeNotation = "";
@@ -87,15 +57,11 @@ class App extends Component {
           return Promise.reject('No Cities Found');
         }
       })
-      // .then(res => res.json())
-
       .then(result => this.setState({
         currentWeather: result,
         degree: degreeNotation,
         coordinates: result.coord
       }))
-
-
     const forecast = await fetch('https://api.openweathermap.org/data/2.5/onecall?lat=' + this.state.coordinates.lat + '&lon=' + this.state.coordinates.lon + '&exclude=current,minutely,hourly,alerts&appid=' + apiKey + '&units=' + units + '&lang=' + lan)
       .then(res => res.json())
       .then(result => this.setState({ daily: result.daily }))
@@ -140,7 +106,7 @@ class App extends Component {
         <Forecast degree={this.state.degree} dailyForecast={this.state.daily} />
         <Container id="footer" fluid>
           <Row>
-            <Col>Weather Data Powered By <a href="https://www.w3schools.com">Open Weather API</a></Col>
+            <Col>Weather Data Powered By <a href="https://openweathermap.org/api" target="_blank">Open Weather API</a></Col>
           </Row>
         </Container>
       </section>

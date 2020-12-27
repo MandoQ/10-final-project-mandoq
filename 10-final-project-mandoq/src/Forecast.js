@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import './Forecast.css'
-import Table from 'react-bootstrap/Table'
-class Forecast extends Component {
+import './Forecast.css';
+import Table from 'react-bootstrap/Table';
 
+class Forecast extends Component {
+   // Used this source to learn how to get the days of the week https://www.w3schools.com/jsref/jsref_obj_date.asp
     getDate(timeStamp){
         var a = new Date(timeStamp * 1000);
         let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
@@ -10,7 +11,6 @@ class Forecast extends Component {
         return date;
     }
     render() {
-        //console.log(this.props.dailyForecast);
         return (
             <div>
                 <Table className="forecast-table" striped bordered hover variant="dark">
