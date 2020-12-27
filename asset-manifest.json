@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/10-final-project-mandoq/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/10-final-project-mandoq/static/js/main.d9c5d1eb.chunk.js",
-    "main.js.map": "/10-final-project-mandoq/static/js/main.d9c5d1eb.chunk.js.map",
-    "runtime-main.js": "/10-final-project-mandoq/static/js/runtime-main.55f168ec.js",
-    "runtime-main.js.map": "/10-final-project-mandoq/static/js/runtime-main.55f168ec.js.map",
-    "static/js/2.c5dd312c.chunk.js": "/10-final-project-mandoq/static/js/2.c5dd312c.chunk.js",
-    "static/js/2.c5dd312c.chunk.js.map": "/10-final-project-mandoq/static/js/2.c5dd312c.chunk.js.map",
-    "static/js/3.339d908d.chunk.js": "/10-final-project-mandoq/static/js/3.339d908d.chunk.js",
-    "static/js/3.339d908d.chunk.js.map": "/10-final-project-mandoq/static/js/3.339d908d.chunk.js.map",
+    "main.css": "/10-final-project-mandoq/static/css/main.d5347995.chunk.css",
+    "main.js": "/10-final-project-mandoq/static/js/main.c352dd51.chunk.js",
+    "main.js.map": "/10-final-project-mandoq/static/js/main.c352dd51.chunk.js.map",
+    "runtime-main.js": "/10-final-project-mandoq/static/js/runtime-main.02023d44.js",
+    "runtime-main.js.map": "/10-final-project-mandoq/static/js/runtime-main.02023d44.js.map",
+    "static/js/2.96f81c9a.chunk.js": "/10-final-project-mandoq/static/js/2.96f81c9a.chunk.js",
+    "static/js/2.96f81c9a.chunk.js.map": "/10-final-project-mandoq/static/js/2.96f81c9a.chunk.js.map",
+    "static/js/3.9e68fa1a.chunk.js": "/10-final-project-mandoq/static/js/3.9e68fa1a.chunk.js",
+    "static/js/3.9e68fa1a.chunk.js.map": "/10-final-project-mandoq/static/js/3.9e68fa1a.chunk.js.map",
     "index.html": "/10-final-project-mandoq/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/10-final-project-mandoq/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.c5dd312c.chunk.js.LICENSE.txt": "/10-final-project-mandoq/static/js/2.c5dd312c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/10-final-project-mandoq/static/media/logo.6ce24c58.svg"
+    "static/css/main.d5347995.chunk.css.map": "/10-final-project-mandoq/static/css/main.d5347995.chunk.css.map",
+    "static/js/2.96f81c9a.chunk.js.LICENSE.txt": "/10-final-project-mandoq/static/js/2.96f81c9a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.55f168ec.js",
-    "static/js/2.c5dd312c.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.d9c5d1eb.chunk.js"
+    "static/js/runtime-main.02023d44.js",
+    "static/js/2.96f81c9a.chunk.js",
+    "static/css/main.d5347995.chunk.css",
+    "static/js/main.c352dd51.chunk.js"
   ]
 }
